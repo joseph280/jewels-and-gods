@@ -1,0 +1,43 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.16.7",
+        "@types/react": "^17.0.38",
+        "@types/react-dom": "^17.0.11",
+        "autoprefixer": "^10.4.2",
+        "axios": "^0.21",
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-airbnb-typescript": "^14.0.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-react-hooks": "^4.2.1-alpha-6ecad79cc-20211006",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.5",
+        "tailwindcss": "^3.0.15",
+        "ts-loader": "^9.2.6",
+        "typescript": "^4.5.4"
+    },
+    "dependencies": {
+        "@headlessui/react": "^1.4.3",
+        "@heroicons/react": "^1.0.5",
+        "@inertiajs/inertia": "^0.11.0",
+        "@inertiajs/inertia-react": "^0.8.0",
+        "@waxio/waxjs": "^1.0.4",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-multi-carousel": "^2.6.5"
+    }
+}
